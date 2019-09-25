@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejemplo</title>
-</head>
-<body>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script  type="text/javascript" src="js/master.js"></script>
+    <script type="text/javascript">
 
+        function Mostrar(){
+            var str = ListaTabla(23, 6);
+            document.getElementById('body').innerHTML = str;
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Lista ejemplo</h2>
+    <p>
+        <button type="button" class="btn btn-success" onclick="Mostrar()">
+            Mostrar
+        </button>
+    </p>
+    <table class="table table-bordered table-striped">
+        <thead></thead>
+        <tbody id="body">
+
+        </tbody>
+    </table>
 </body>
+
 </html>
