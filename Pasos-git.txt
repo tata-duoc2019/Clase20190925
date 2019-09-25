@@ -4,6 +4,10 @@ repositorio GitHub: https://github.com/tata-duoc2019/Clase20190925.git
 user: tata-duoc2019
 password: tata.2019#$
 
+// correo gmail
+tata.duoc2019@gmail.com
+clave: tata.2019#$
+
 
 
 
