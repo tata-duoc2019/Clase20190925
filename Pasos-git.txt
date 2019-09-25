@@ -30,6 +30,33 @@ git commit -m "mensaje versión ###"
 
 git push -u origin master
 
+// crear ramas
+git branch "rama_1"
+// cambiar a rama_1
+git checkout rama_1
+
+// crea y se cambia de rama
+git checkout -b rama_1
+
+// borrar rama_1
+git checkout -d rama_1
+
+
+
+// pasos
+git checkout -b rama_1
+git add .
+git commit -m "act rama_1"
+git push -u origin rama_1
+
+git checkout -b rama_2
+git add .
+git commit -m "act rama_2"
+git push -u origin rama_2
+
+
+
+
 
 
 
