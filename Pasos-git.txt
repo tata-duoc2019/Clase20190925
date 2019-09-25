@@ -1,4 +1,12 @@
 
+repositorio GitHub
+
+user: tata-duoc2019
+password: tata.2019#$
+
+
+
+
 // crear carpeta 
 mkdir Clase20190925
 
